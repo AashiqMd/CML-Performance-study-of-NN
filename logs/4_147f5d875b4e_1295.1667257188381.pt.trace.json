@@ -1,0 +1,1692 @@
+
+{
+  "schemaVersion": 1,
+  "deviceProperties": [
+    {
+      "id": 0, "name": "Tesla T4", "totalGlobalMem": 15843721216,
+      "computeMajor": 7, "computeMinor": 5,
+      "maxThreadsPerBlock": 1024, "maxThreadsPerMultiprocessor": 1024,
+      "regsPerBlock": 65536, "regsPerMultiprocessor": 65536, "warpSize": 32,
+      "sharedMemPerBlock": 49152, "sharedMemPerMultiprocessor": 65536,
+      "numSms": 40, "sharedMemPerBlockOptin": 65536
+    }
+  ],
+  "traceEvents": [
+  {
+    "ph": "i", "s": "t", "name": "[memory]",
+    "pid": 1295, "tid": 1295,
+    "ts": 1667257188373185,
+    "args": {
+      "Device Type": 0, "Device Id": -1, "Addr": 3969385856, "Bytes": 4, "Total Allocated": 4, "Total Reserved": 0, "python_caller_id": 8, "Call stack": "runpy.py(85): _run_code;ipykernel_launcher.py(16): <module>;traitlets/config/application.py(846): launch_instance;ipykernel/kernelapp.py(612): start;tornado/platform/asyncio.py(132): start;asyncio/base_events.py(541): run_forever;asyncio/base_events.py(1786): _run_once;asyncio/events.py(88): _run;tornado/ioloop.py(758): _run_callback;tornado/stack_context.py(300): null_wrapper;tornado/gen.py(1233): inner;tornado/gen.py(1147): run;ipykernel/kernelbase.py(381): dispatch_queue;tornado/gen.py(346): wrapper;tornado/gen.py(1080): __init__;tornado/gen.py(1147): run;ipykernel/kernelbase.py(365): process_one;tornado/gen.py(326): wrapper;ipykernel/kernelbase.py(268): dispatch_shell;tornado/gen.py(326): wrapper;ipykernel/kernelbase.py(545): execute_request;tornado/gen.py(326): wrapper;ipykernel/ipkernel.py(306): do_execute;ipykernel/zmqshell.py(536): run_cell;IPython/core/interactiveshell.py(2855): run_cell;IPython/core/interactiveshell.py(2881): _run_cell;IPython/core/async_helpers.py(68): _pseudo_sync_runner;IPython/core/interactiveshell.py(3058): run_cell_async;IPython/core/interactiveshell.py(3249): run_ast_nodes;IPython/core/interactiveshell.py(3326): run_code;<ipython-input-11-0102ffd23884>(18): <module>;<ipython-input-9-69bb95e9ebde>(6): train;nn.Module: Net;<ipython-input-5-e9b7217e0cf3>(15): forward;torch/profiler/profiler.py(471): start;torch/autograd/profiler.py(436): __init__;<built-in method zeros of type object at 0x7f931723c940>;"
+    }
+  },
+  {
+    "ph": "i", "s": "t", "name": "[memory]",
+    "pid": 1295, "tid": 1295,
+    "ts": 1667257188373349,
+    "args": {
+      "Device Type": 0, "Device Id": -1, "Addr": 2741774208, "Bytes": 264, "Total Allocated": 268, "Total Reserved": 0, "python_caller_id": 10, "Call stack": "runpy.py(85): _run_code;ipykernel_launcher.py(16): <module>;traitlets/config/application.py(846): launch_instance;ipykernel/kernelapp.py(612): start;tornado/platform/asyncio.py(132): start;asyncio/base_events.py(541): run_forever;asyncio/base_events.py(1786): _run_once;asyncio/events.py(88): _run;tornado/ioloop.py(758): _run_callback;tornado/stack_context.py(300): null_wrapper;tornado/gen.py(1233): inner;tornado/gen.py(1147): run;ipykernel/kernelbase.py(381): dispatch_queue;tornado/gen.py(346): wrapper;tornado/gen.py(1080): __init__;tornado/gen.py(1147): run;ipykernel/kernelbase.py(365): process_one;tornado/gen.py(326): wrapper;ipykernel/kernelbase.py(268): dispatch_shell;tornado/gen.py(326): wrapper;ipykernel/kernelbase.py(545): execute_request;tornado/gen.py(326): wrapper;ipykernel/ipkernel.py(306): do_execute;ipykernel/zmqshell.py(536): run_cell;IPython/core/interactiveshell.py(2855): run_cell;IPython/core/interactiveshell.py(2881): _run_cell;IPython/core/async_helpers.py(68): _pseudo_sync_runner;IPython/core/interactiveshell.py(3058): run_cell_async;IPython/core/interactiveshell.py(3249): run_ast_nodes;IPython/core/interactiveshell.py(3326): run_code;<ipython-input-11-0102ffd23884>(18): <module>;<ipython-input-9-69bb95e9ebde>(6): train;nn.Module: Net;<ipython-input-5-e9b7217e0cf3>(15): forward;torch/profiler/profiler.py(471): start;torch/autograd/profiler.py(445): __enter__;torch/_ops.py(138): __call__;<built-in method _record_function_enter of PyCapsule object at 0x7f92c17099c0>;"
+    }
+  },
+  {
+    "ph": "i", "s": "t", "name": "[memory]",
+    "pid": 1295, "tid": 1295,
+    "ts": 1667257188373352,
+    "args": {
+      "Device Type": 0, "Device Id": -1, "Addr": 2741774208, "Bytes": -264, "Total Allocated": 4, "Total Reserved": 0, "python_caller_id": 10, "Call stack": "runpy.py(85): _run_code;ipykernel_launcher.py(16): <module>;traitlets/config/application.py(846): launch_instance;ipykernel/kernelapp.py(612): start;tornado/platform/asyncio.py(132): start;asyncio/base_events.py(541): run_forever;asyncio/base_events.py(1786): _run_once;asyncio/events.py(88): _run;tornado/ioloop.py(758): _run_callback;tornado/stack_context.py(300): null_wrapper;tornado/gen.py(1233): inner;tornado/gen.py(1147): run;ipykernel/kernelbase.py(381): dispatch_queue;tornado/gen.py(346): wrapper;tornado/gen.py(1080): __init__;tornado/gen.py(1147): run;ipykernel/kernelbase.py(365): process_one;tornado/gen.py(326): wrapper;ipykernel/kernelbase.py(268): dispatch_shell;tornado/gen.py(326): wrapper;ipykernel/kernelbase.py(545): execute_request;tornado/gen.py(326): wrapper;ipykernel/ipkernel.py(306): do_execute;ipykernel/zmqshell.py(536): run_cell;IPython/core/interactiveshell.py(2855): run_cell;IPython/core/interactiveshell.py(2881): _run_cell;IPython/core/async_helpers.py(68): _pseudo_sync_runner;IPython/core/interactiveshell.py(3058): run_cell_async;IPython/core/interactiveshell.py(3249): run_ast_nodes;IPython/core/interactiveshell.py(3326): run_code;<ipython-input-11-0102ffd23884>(18): <module>;<ipython-input-9-69bb95e9ebde>(6): train;nn.Module: Net;<ipython-input-5-e9b7217e0cf3>(15): forward;torch/profiler/profiler.py(471): start;torch/autograd/profiler.py(445): __enter__;torch/_ops.py(138): __call__;<built-in method _record_function_enter of PyCapsule object at 0x7f92c17099c0>;"
+    }
+  },
+  {
+    "ph": "i", "s": "t", "name": "[memory]",
+    "pid": 1295, "tid": 1295,
+    "ts": 1667257188373364,
+    "args": {
+      "Device Type": 0, "Device Id": -1, "Addr": 3969385856, "Bytes": -4, "Total Allocated": 0, "Total Reserved": 0, "python_caller_id": 12, "Call stack": "runpy.py(85): _run_code;ipykernel_launcher.py(16): <module>;traitlets/config/application.py(846): launch_instance;ipykernel/kernelapp.py(612): start;tornado/platform/asyncio.py(132): start;asyncio/base_events.py(541): run_forever;asyncio/base_events.py(1786): _run_once;asyncio/events.py(88): _run;tornado/ioloop.py(758): _run_callback;tornado/stack_context.py(300): null_wrapper;tornado/gen.py(1233): inner;tornado/gen.py(1147): run;ipykernel/kernelbase.py(381): dispatch_queue;tornado/gen.py(346): wrapper;tornado/gen.py(1080): __init__;tornado/gen.py(1147): run;ipykernel/kernelbase.py(365): process_one;tornado/gen.py(326): wrapper;ipykernel/kernelbase.py(268): dispatch_shell;tornado/gen.py(326): wrapper;ipykernel/kernelbase.py(545): execute_request;tornado/gen.py(326): wrapper;ipykernel/ipkernel.py(306): do_execute;ipykernel/zmqshell.py(536): run_cell;IPython/core/interactiveshell.py(2855): run_cell;IPython/core/interactiveshell.py(2881): _run_cell;IPython/core/async_helpers.py(68): _pseudo_sync_runner;IPython/core/interactiveshell.py(3058): run_cell_async;IPython/core/interactiveshell.py(3249): run_ast_nodes;IPython/core/interactiveshell.py(3326): run_code;<ipython-input-11-0102ffd23884>(18): <module>;<ipython-input-9-69bb95e9ebde>(6): train;nn.Module: Net;<ipython-input-5-e9b7217e0cf3>(15): forward;torch/profiler/profiler.py(471): start;torch/autograd/profiler.py(445): __enter__;"
+    }
+  },
+  {
+    "ph": "i", "s": "t", "name": "[memory]",
+    "pid": 1295, "tid": 1295,
+    "ts": 1667257188375882,
+    "args": {
+      "Device Type": 1, "Device Id": 0, "Addr": 140268113353728, "Bytes": 589824, "Total Allocated": 20153344, "Total Reserved": 46137344, "python_caller_id": 18, "Call stack": "runpy.py(85): _run_code;ipykernel_launcher.py(16): <module>;traitlets/config/application.py(846): launch_instance;ipykernel/kernelapp.py(612): start;tornado/platform/asyncio.py(132): start;asyncio/base_events.py(541): run_forever;asyncio/base_events.py(1786): _run_once;asyncio/events.py(88): _run;tornado/ioloop.py(758): _run_callback;tornado/stack_context.py(300): null_wrapper;tornado/gen.py(1233): inner;tornado/gen.py(1147): run;ipykernel/kernelbase.py(381): dispatch_queue;tornado/gen.py(346): wrapper;tornado/gen.py(1080): __init__;tornado/gen.py(1147): run;ipykernel/kernelbase.py(365): process_one;tornado/gen.py(326): wrapper;ipykernel/kernelbase.py(268): dispatch_shell;tornado/gen.py(326): wrapper;ipykernel/kernelbase.py(545): execute_request;tornado/gen.py(326): wrapper;ipykernel/ipkernel.py(306): do_execute;ipykernel/zmqshell.py(536): run_cell;IPython/core/interactiveshell.py(2855): run_cell;IPython/core/interactiveshell.py(2881): _run_cell;IPython/core/async_helpers.py(68): _pseudo_sync_runner;IPython/core/interactiveshell.py(3058): run_cell_async;IPython/core/interactiveshell.py(3249): run_ast_nodes;IPython/core/interactiveshell.py(3326): run_code;<ipython-input-11-0102ffd23884>(18): <module>;<ipython-input-9-69bb95e9ebde>(6): train;nn.Module: Net;<ipython-input-5-e9b7217e0cf3>(15): forward;nn.Module: Conv2d;torch/nn/modules/conv.py(456): forward;torch/nn/modules/conv.py(448): _conv_forward;<built-in method conv2d of type object at 0x7f931723c940>;"
+    }
+  },
+  {
+    "ph": "i", "s": "t", "name": "[memory]",
+    "pid": 1295, "tid": 1295,
+    "ts": 1667257188375966,
+    "args": {
+      "Device Type": 1, "Device Id": 0, "Addr": 140268113943552, "Bytes": 206336, "Total Allocated": 20359680, "Total Reserved": 46137344, "python_caller_id": 18, "Call stack": "runpy.py(85): _run_code;ipykernel_launcher.py(16): <module>;traitlets/config/application.py(846): launch_instance;ipykernel/kernelapp.py(612): start;tornado/platform/asyncio.py(132): start;asyncio/base_events.py(541): run_forever;asyncio/base_events.py(1786): _run_once;asyncio/events.py(88): _run;tornado/ioloop.py(758): _run_callback;tornado/stack_context.py(300): null_wrapper;tornado/gen.py(1233): inner;tornado/gen.py(1147): run;ipykernel/kernelbase.py(381): dispatch_queue;tornado/gen.py(346): wrapper;tornado/gen.py(1080): __init__;tornado/gen.py(1147): run;ipykernel/kernelbase.py(365): process_one;tornado/gen.py(326): wrapper;ipykernel/kernelbase.py(268): dispatch_shell;tornado/gen.py(326): wrapper;ipykernel/kernelbase.py(545): execute_request;tornado/gen.py(326): wrapper;ipykernel/ipkernel.py(306): do_execute;ipykernel/zmqshell.py(536): run_cell;IPython/core/interactiveshell.py(2855): run_cell;IPython/core/interactiveshell.py(2881): _run_cell;IPython/core/async_helpers.py(68): _pseudo_sync_runner;IPython/core/interactiveshell.py(3058): run_cell_async;IPython/core/interactiveshell.py(3249): run_ast_nodes;IPython/core/interactiveshell.py(3326): run_code;<ipython-input-11-0102ffd23884>(18): <module>;<ipython-input-9-69bb95e9ebde>(6): train;nn.Module: Net;<ipython-input-5-e9b7217e0cf3>(15): forward;nn.Module: Conv2d;torch/nn/modules/conv.py(456): forward;torch/nn/modules/conv.py(448): _conv_forward;<built-in method conv2d of type object at 0x7f931723c940>;"
+    }
+  },
+  {
+    "ph": "i", "s": "t", "name": "[memory]",
+    "pid": 1295, "tid": 1295,
+    "ts": 1667257188376249,
+    "args": {
+      "Device Type": 1, "Device Id": 0, "Addr": 140268113943552, "Bytes": -206336, "Total Allocated": 20153344, "Total Reserved": 46137344, "python_caller_id": 18, "Call stack": "runpy.py(85): _run_code;ipykernel_launcher.py(16): <module>;traitlets/config/application.py(846): launch_instance;ipykernel/kernelapp.py(612): start;tornado/platform/asyncio.py(132): start;asyncio/base_events.py(541): run_forever;asyncio/base_events.py(1786): _run_once;asyncio/events.py(88): _run;tornado/ioloop.py(758): _run_callback;tornado/stack_context.py(300): null_wrapper;tornado/gen.py(1233): inner;tornado/gen.py(1147): run;ipykernel/kernelbase.py(381): dispatch_queue;tornado/gen.py(346): wrapper;tornado/gen.py(1080): __init__;tornado/gen.py(1147): run;ipykernel/kernelbase.py(365): process_one;tornado/gen.py(326): wrapper;ipykernel/kernelbase.py(268): dispatch_shell;tornado/gen.py(326): wrapper;ipykernel/kernelbase.py(545): execute_request;tornado/gen.py(326): wrapper;ipykernel/ipkernel.py(306): do_execute;ipykernel/zmqshell.py(536): run_cell;IPython/core/interactiveshell.py(2855): run_cell;IPython/core/interactiveshell.py(2881): _run_cell;IPython/core/async_helpers.py(68): _pseudo_sync_runner;IPython/core/interactiveshell.py(3058): run_cell_async;IPython/core/interactiveshell.py(3249): run_ast_nodes;IPython/core/interactiveshell.py(3326): run_code;<ipython-input-11-0102ffd23884>(18): <module>;<ipython-input-9-69bb95e9ebde>(6): train;nn.Module: Net;<ipython-input-5-e9b7217e0cf3>(15): forward;nn.Module: Conv2d;torch/nn/modules/conv.py(456): forward;torch/nn/modules/conv.py(448): _conv_forward;<built-in method conv2d of type object at 0x7f931723c940>;"
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 1295, "tid": 1295,
+    "ts": 1667257188373156, "dur": 119,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 1,
+      "Input Dims": [[], [], [], [], []], "Input type": ["", "Scalar", "", "", "Scalar"], "python_caller_id": 8, "Call stack": "runpy.py(85): _run_code;ipykernel_launcher.py(16): <module>;traitlets/config/application.py(846): launch_instance;ipykernel/kernelapp.py(612): start;tornado/platform/asyncio.py(132): start;asyncio/base_events.py(541): run_forever;asyncio/base_events.py(1786): _run_once;asyncio/events.py(88): _run;tornado/ioloop.py(758): _run_callback;tornado/stack_context.py(300): null_wrapper;tornado/gen.py(1233): inner;tornado/gen.py(1147): run;ipykernel/kernelbase.py(381): dispatch_queue;tornado/gen.py(346): wrapper;tornado/gen.py(1080): __init__;tornado/gen.py(1147): run;ipykernel/kernelbase.py(365): process_one;tornado/gen.py(326): wrapper;ipykernel/kernelbase.py(268): dispatch_shell;tornado/gen.py(326): wrapper;ipykernel/kernelbase.py(545): execute_request;tornado/gen.py(326): wrapper;ipykernel/ipkernel.py(306): do_execute;ipykernel/zmqshell.py(536): run_cell;IPython/core/interactiveshell.py(2855): run_cell;IPython/core/interactiveshell.py(2881): _run_cell;IPython/core/async_helpers.py(68): _pseudo_sync_runner;IPython/core/interactiveshell.py(3058): run_cell_async;IPython/core/interactiveshell.py(3249): run_ast_nodes;IPython/core/interactiveshell.py(3326): run_code;<ipython-input-11-0102ffd23884>(18): <module>;<ipython-input-9-69bb95e9ebde>(6): train;nn.Module: Net;<ipython-input-5-e9b7217e0cf3>(15): forward;torch/profiler/profiler.py(471): start;torch/autograd/profiler.py(436): __init__;<built-in method zeros of type object at 0x7f931723c940>;"
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 1295, "tid": 1295,
+    "ts": 1667257188373174, "dur": 59,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 2,
+      "Input Dims": [[], [], [], [], [], []], "Input type": ["", "Scalar", "", "", "Scalar", ""], "python_caller_id": 8, "Call stack": "runpy.py(85): _run_code;ipykernel_launcher.py(16): <module>;traitlets/config/application.py(846): launch_instance;ipykernel/kernelapp.py(612): start;tornado/platform/asyncio.py(132): start;asyncio/base_events.py(541): run_forever;asyncio/base_events.py(1786): _run_once;asyncio/events.py(88): _run;tornado/ioloop.py(758): _run_callback;tornado/stack_context.py(300): null_wrapper;tornado/gen.py(1233): inner;tornado/gen.py(1147): run;ipykernel/kernelbase.py(381): dispatch_queue;tornado/gen.py(346): wrapper;tornado/gen.py(1080): __init__;tornado/gen.py(1147): run;ipykernel/kernelbase.py(365): process_one;tornado/gen.py(326): wrapper;ipykernel/kernelbase.py(268): dispatch_shell;tornado/gen.py(326): wrapper;ipykernel/kernelbase.py(545): execute_request;tornado/gen.py(326): wrapper;ipykernel/ipkernel.py(306): do_execute;ipykernel/zmqshell.py(536): run_cell;IPython/core/interactiveshell.py(2855): run_cell;IPython/core/interactiveshell.py(2881): _run_cell;IPython/core/async_helpers.py(68): _pseudo_sync_runner;IPython/core/interactiveshell.py(3058): run_cell_async;IPython/core/interactiveshell.py(3249): run_ast_nodes;IPython/core/interactiveshell.py(3326): run_code;<ipython-input-11-0102ffd23884>(18): <module>;<ipython-input-9-69bb95e9ebde>(6): train;nn.Module: Net;<ipython-input-5-e9b7217e0cf3>(15): forward;torch/profiler/profiler.py(471): start;torch/autograd/profiler.py(436): __init__;<built-in method zeros of type object at 0x7f931723c940>;"
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 1295, "tid": 1295,
+    "ts": 1667257188373272, "dur": 2,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 3,
+      "Input Dims": [[1]], "Input type": ["float"], "python_caller_id": 8, "Call stack": "runpy.py(85): _run_code;ipykernel_launcher.py(16): <module>;traitlets/config/application.py(846): launch_instance;ipykernel/kernelapp.py(612): start;tornado/platform/asyncio.py(132): start;asyncio/base_events.py(541): run_forever;asyncio/base_events.py(1786): _run_once;asyncio/events.py(88): _run;tornado/ioloop.py(758): _run_callback;tornado/stack_context.py(300): null_wrapper;tornado/gen.py(1233): inner;tornado/gen.py(1147): run;ipykernel/kernelbase.py(381): dispatch_queue;tornado/gen.py(346): wrapper;tornado/gen.py(1080): __init__;tornado/gen.py(1147): run;ipykernel/kernelbase.py(365): process_one;tornado/gen.py(326): wrapper;ipykernel/kernelbase.py(268): dispatch_shell;tornado/gen.py(326): wrapper;ipykernel/kernelbase.py(545): execute_request;tornado/gen.py(326): wrapper;ipykernel/ipkernel.py(306): do_execute;ipykernel/zmqshell.py(536): run_cell;IPython/core/interactiveshell.py(2855): run_cell;IPython/core/interactiveshell.py(2881): _run_cell;IPython/core/async_helpers.py(68): _pseudo_sync_runner;IPython/core/interactiveshell.py(3058): run_cell_async;IPython/core/interactiveshell.py(3249): run_ast_nodes;IPython/core/interactiveshell.py(3326): run_code;<ipython-input-11-0102ffd23884>(18): <module>;<ipython-input-9-69bb95e9ebde>(6): train;nn.Module: Net;<ipython-input-5-e9b7217e0cf3>(15): forward;torch/profiler/profiler.py(471): start;torch/autograd/profiler.py(436): __init__;<built-in method zeros of type object at 0x7f931723c940>;"
+    }
+  },
+  {
+    "ph": "X", "cat": "user_annotation", 
+    "name": "ProfilerStep#0", "pid": 1295, "tid": 1295,
+    "ts": 1667257188373340, "dur": 3085,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 4,
+      "python_caller_id": 10, "Call stack": "runpy.py(85): _run_code;ipykernel_launcher.py(16): <module>;traitlets/config/application.py(846): launch_instance;ipykernel/kernelapp.py(612): start;tornado/platform/asyncio.py(132): start;asyncio/base_events.py(541): run_forever;asyncio/base_events.py(1786): _run_once;asyncio/events.py(88): _run;tornado/ioloop.py(758): _run_callback;tornado/stack_context.py(300): null_wrapper;tornado/gen.py(1233): inner;tornado/gen.py(1147): run;ipykernel/kernelbase.py(381): dispatch_queue;tornado/gen.py(346): wrapper;tornado/gen.py(1080): __init__;tornado/gen.py(1147): run;ipykernel/kernelbase.py(365): process_one;tornado/gen.py(326): wrapper;ipykernel/kernelbase.py(268): dispatch_shell;tornado/gen.py(326): wrapper;ipykernel/kernelbase.py(545): execute_request;tornado/gen.py(326): wrapper;ipykernel/ipkernel.py(306): do_execute;ipykernel/zmqshell.py(536): run_cell;IPython/core/interactiveshell.py(2855): run_cell;IPython/core/interactiveshell.py(2881): _run_cell;IPython/core/async_helpers.py(68): _pseudo_sync_runner;IPython/core/interactiveshell.py(3058): run_cell_async;IPython/core/interactiveshell.py(3249): run_ast_nodes;IPython/core/interactiveshell.py(3326): run_code;<ipython-input-11-0102ffd23884>(18): <module>;<ipython-input-9-69bb95e9ebde>(6): train;nn.Module: Net;<ipython-input-5-e9b7217e0cf3>(15): forward;torch/profiler/profiler.py(471): start;torch/autograd/profiler.py(445): __enter__;torch/_ops.py(138): __call__;<built-in method _record_function_enter of PyCapsule object at 0x7f92c17099c0>;"
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 1295, "tid": 1295,
+    "ts": 1667257188373345, "dur": 5,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 5,
+      "Input Dims": [[], [], [], [], [], []], "Input type": ["", "Scalar", "", "", "", ""], "python_caller_id": 10, "Call stack": "runpy.py(85): _run_code;ipykernel_launcher.py(16): <module>;traitlets/config/application.py(846): launch_instance;ipykernel/kernelapp.py(612): start;tornado/platform/asyncio.py(132): start;asyncio/base_events.py(541): run_forever;asyncio/base_events.py(1786): _run_once;asyncio/events.py(88): _run;tornado/ioloop.py(758): _run_callback;tornado/stack_context.py(300): null_wrapper;tornado/gen.py(1233): inner;tornado/gen.py(1147): run;ipykernel/kernelbase.py(381): dispatch_queue;tornado/gen.py(346): wrapper;tornado/gen.py(1080): __init__;tornado/gen.py(1147): run;ipykernel/kernelbase.py(365): process_one;tornado/gen.py(326): wrapper;ipykernel/kernelbase.py(268): dispatch_shell;tornado/gen.py(326): wrapper;ipykernel/kernelbase.py(545): execute_request;tornado/gen.py(326): wrapper;ipykernel/ipkernel.py(306): do_execute;ipykernel/zmqshell.py(536): run_cell;IPython/core/interactiveshell.py(2855): run_cell;IPython/core/interactiveshell.py(2881): _run_cell;IPython/core/async_helpers.py(68): _pseudo_sync_runner;IPython/core/interactiveshell.py(3058): run_cell_async;IPython/core/interactiveshell.py(3249): run_ast_nodes;IPython/core/interactiveshell.py(3326): run_code;<ipython-input-11-0102ffd23884>(18): <module>;<ipython-input-9-69bb95e9ebde>(6): train;nn.Module: Net;<ipython-input-5-e9b7217e0cf3>(15): forward;torch/profiler/profiler.py(471): start;torch/autograd/profiler.py(445): __enter__;torch/_ops.py(138): __call__;<built-in method _record_function_enter of PyCapsule object at 0x7f92c17099c0>;"
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::conv2d", "pid": 1295, "tid": 1295,
+    "ts": 1667257188373443, "dur": 2925,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 6,
+      "Input Dims": [[4, 32, 26, 26], [64, 32, 3, 3], [64], [], [], [], []], "Input type": ["float", "float", "float", "", "", "", "Scalar"], "Fwd thread id": 0, "Sequence number": 225002, "python_caller_id": 18, "Call stack": "runpy.py(85): _run_code;ipykernel_launcher.py(16): <module>;traitlets/config/application.py(846): launch_instance;ipykernel/kernelapp.py(612): start;tornado/platform/asyncio.py(132): start;asyncio/base_events.py(541): run_forever;asyncio/base_events.py(1786): _run_once;asyncio/events.py(88): _run;tornado/ioloop.py(758): _run_callback;tornado/stack_context.py(300): null_wrapper;tornado/gen.py(1233): inner;tornado/gen.py(1147): run;ipykernel/kernelbase.py(381): dispatch_queue;tornado/gen.py(346): wrapper;tornado/gen.py(1080): __init__;tornado/gen.py(1147): run;ipykernel/kernelbase.py(365): process_one;tornado/gen.py(326): wrapper;ipykernel/kernelbase.py(268): dispatch_shell;tornado/gen.py(326): wrapper;ipykernel/kernelbase.py(545): execute_request;tornado/gen.py(326): wrapper;ipykernel/ipkernel.py(306): do_execute;ipykernel/zmqshell.py(536): run_cell;IPython/core/interactiveshell.py(2855): run_cell;IPython/core/interactiveshell.py(2881): _run_cell;IPython/core/async_helpers.py(68): _pseudo_sync_runner;IPython/core/interactiveshell.py(3058): run_cell_async;IPython/core/interactiveshell.py(3249): run_ast_nodes;IPython/core/interactiveshell.py(3326): run_code;<ipython-input-11-0102ffd23884>(18): <module>;<ipython-input-9-69bb95e9ebde>(6): train;nn.Module: Net;<ipython-input-5-e9b7217e0cf3>(15): forward;nn.Module: Conv2d;torch/nn/modules/conv.py(456): forward;torch/nn/modules/conv.py(448): _conv_forward;<built-in method conv2d of type object at 0x7f931723c940>;"
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::convolution", "pid": 1295, "tid": 1295,
+    "ts": 1667257188373451, "dur": 2916,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 7,
+      "Input Dims": [[4, 32, 26, 26], [64, 32, 3, 3], [64], [], [], [], [], [], []], "Input type": ["float", "float", "float", "", "", "", "Scalar", "", "Scalar"], "Fwd thread id": 0, "Sequence number": 225002, "python_caller_id": 18, "Call stack": "runpy.py(85): _run_code;ipykernel_launcher.py(16): <module>;traitlets/config/application.py(846): launch_instance;ipykernel/kernelapp.py(612): start;tornado/platform/asyncio.py(132): start;asyncio/base_events.py(541): run_forever;asyncio/base_events.py(1786): _run_once;asyncio/events.py(88): _run;tornado/ioloop.py(758): _run_callback;tornado/stack_context.py(300): null_wrapper;tornado/gen.py(1233): inner;tornado/gen.py(1147): run;ipykernel/kernelbase.py(381): dispatch_queue;tornado/gen.py(346): wrapper;tornado/gen.py(1080): __init__;tornado/gen.py(1147): run;ipykernel/kernelbase.py(365): process_one;tornado/gen.py(326): wrapper;ipykernel/kernelbase.py(268): dispatch_shell;tornado/gen.py(326): wrapper;ipykernel/kernelbase.py(545): execute_request;tornado/gen.py(326): wrapper;ipykernel/ipkernel.py(306): do_execute;ipykernel/zmqshell.py(536): run_cell;IPython/core/interactiveshell.py(2855): run_cell;IPython/core/interactiveshell.py(2881): _run_cell;IPython/core/async_helpers.py(68): _pseudo_sync_runner;IPython/core/interactiveshell.py(3058): run_cell_async;IPython/core/interactiveshell.py(3249): run_ast_nodes;IPython/core/interactiveshell.py(3326): run_code;<ipython-input-11-0102ffd23884>(18): <module>;<ipython-input-9-69bb95e9ebde>(6): train;nn.Module: Net;<ipython-input-5-e9b7217e0cf3>(15): forward;nn.Module: Conv2d;torch/nn/modules/conv.py(456): forward;torch/nn/modules/conv.py(448): _conv_forward;<built-in method conv2d of type object at 0x7f931723c940>;"
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::_convolution", "pid": 1295, "tid": 1295,
+    "ts": 1667257188373484, "dur": 2876,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 8,
+      "Input Dims": [[4, 32, 26, 26], [64, 32, 3, 3], [64], [], [], [], [], [], [], [], [], [], []], "Input type": ["float", "float", "float", "", "", "", "Scalar", "", "Scalar", "Scalar", "Scalar", "Scalar", "Scalar"], "python_caller_id": 18, "Call stack": "runpy.py(85): _run_code;ipykernel_launcher.py(16): <module>;traitlets/config/application.py(846): launch_instance;ipykernel/kernelapp.py(612): start;tornado/platform/asyncio.py(132): start;asyncio/base_events.py(541): run_forever;asyncio/base_events.py(1786): _run_once;asyncio/events.py(88): _run;tornado/ioloop.py(758): _run_callback;tornado/stack_context.py(300): null_wrapper;tornado/gen.py(1233): inner;tornado/gen.py(1147): run;ipykernel/kernelbase.py(381): dispatch_queue;tornado/gen.py(346): wrapper;tornado/gen.py(1080): __init__;tornado/gen.py(1147): run;ipykernel/kernelbase.py(365): process_one;tornado/gen.py(326): wrapper;ipykernel/kernelbase.py(268): dispatch_shell;tornado/gen.py(326): wrapper;ipykernel/kernelbase.py(545): execute_request;tornado/gen.py(326): wrapper;ipykernel/ipkernel.py(306): do_execute;ipykernel/zmqshell.py(536): run_cell;IPython/core/interactiveshell.py(2855): run_cell;IPython/core/interactiveshell.py(2881): _run_cell;IPython/core/async_helpers.py(68): _pseudo_sync_runner;IPython/core/interactiveshell.py(3058): run_cell_async;IPython/core/interactiveshell.py(3249): run_ast_nodes;IPython/core/interactiveshell.py(3326): run_code;<ipython-input-11-0102ffd23884>(18): <module>;<ipython-input-9-69bb95e9ebde>(6): train;nn.Module: Net;<ipython-input-5-e9b7217e0cf3>(15): forward;nn.Module: Conv2d;torch/nn/modules/conv.py(456): forward;torch/nn/modules/conv.py(448): _conv_forward;<built-in method conv2d of type object at 0x7f931723c940>;"
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::cudnn_convolution", "pid": 1295, "tid": 1295,
+    "ts": 1667257188373506, "dur": 2754,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 9,
+      "Input Dims": [[4, 32, 26, 26], [64, 32, 3, 3], [], [], [], [], [], [], []], "Input type": ["float", "float", "", "", "", "Scalar", "Scalar", "Scalar", "Scalar"], "python_caller_id": 18, "Call stack": "runpy.py(85): _run_code;ipykernel_launcher.py(16): <module>;traitlets/config/application.py(846): launch_instance;ipykernel/kernelapp.py(612): start;tornado/platform/asyncio.py(132): start;asyncio/base_events.py(541): run_forever;asyncio/base_events.py(1786): _run_once;asyncio/events.py(88): _run;tornado/ioloop.py(758): _run_callback;tornado/stack_context.py(300): null_wrapper;tornado/gen.py(1233): inner;tornado/gen.py(1147): run;ipykernel/kernelbase.py(381): dispatch_queue;tornado/gen.py(346): wrapper;tornado/gen.py(1080): __init__;tornado/gen.py(1147): run;ipykernel/kernelbase.py(365): process_one;tornado/gen.py(326): wrapper;ipykernel/kernelbase.py(268): dispatch_shell;tornado/gen.py(326): wrapper;ipykernel/kernelbase.py(545): execute_request;tornado/gen.py(326): wrapper;ipykernel/ipkernel.py(306): do_execute;ipykernel/zmqshell.py(536): run_cell;IPython/core/interactiveshell.py(2855): run_cell;IPython/core/interactiveshell.py(2881): _run_cell;IPython/core/async_helpers.py(68): _pseudo_sync_runner;IPython/core/interactiveshell.py(3058): run_cell_async;IPython/core/interactiveshell.py(3249): run_ast_nodes;IPython/core/interactiveshell.py(3326): run_code;<ipython-input-11-0102ffd23884>(18): <module>;<ipython-input-9-69bb95e9ebde>(6): train;nn.Module: Net;<ipython-input-5-e9b7217e0cf3>(15): forward;nn.Module: Conv2d;torch/nn/modules/conv.py(456): forward;torch/nn/modules/conv.py(448): _conv_forward;<built-in method conv2d of type object at 0x7f931723c940>;"
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 1295, "tid": 1295,
+    "ts": 1667257188375955, "dur": 15,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 10,
+      "Input Dims": [[], [], [], [], [], []], "Input type": ["", "Scalar", "Scalar", "", "", ""], "python_caller_id": 18, "Call stack": "runpy.py(85): _run_code;ipykernel_launcher.py(16): <module>;traitlets/config/application.py(846): launch_instance;ipykernel/kernelapp.py(612): start;tornado/platform/asyncio.py(132): start;asyncio/base_events.py(541): run_forever;asyncio/base_events.py(1786): _run_once;asyncio/events.py(88): _run;tornado/ioloop.py(758): _run_callback;tornado/stack_context.py(300): null_wrapper;tornado/gen.py(1233): inner;tornado/gen.py(1147): run;ipykernel/kernelbase.py(381): dispatch_queue;tornado/gen.py(346): wrapper;tornado/gen.py(1080): __init__;tornado/gen.py(1147): run;ipykernel/kernelbase.py(365): process_one;tornado/gen.py(326): wrapper;ipykernel/kernelbase.py(268): dispatch_shell;tornado/gen.py(326): wrapper;ipykernel/kernelbase.py(545): execute_request;tornado/gen.py(326): wrapper;ipykernel/ipkernel.py(306): do_execute;ipykernel/zmqshell.py(536): run_cell;IPython/core/interactiveshell.py(2855): run_cell;IPython/core/interactiveshell.py(2881): _run_cell;IPython/core/async_helpers.py(68): _pseudo_sync_runner;IPython/core/interactiveshell.py(3058): run_cell_async;IPython/core/interactiveshell.py(3249): run_ast_nodes;IPython/core/interactiveshell.py(3326): run_code;<ipython-input-11-0102ffd23884>(18): <module>;<ipython-input-9-69bb95e9ebde>(6): train;nn.Module: Net;<ipython-input-5-e9b7217e0cf3>(15): forward;nn.Module: Conv2d;torch/nn/modules/conv.py(456): forward;torch/nn/modules/conv.py(448): _conv_forward;<built-in method conv2d of type object at 0x7f931723c940>;"
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::reshape", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376272, "dur": 13,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 11,
+      "Input Dims": [[64], []], "Input type": ["float", ""], "python_caller_id": 18, "Call stack": "runpy.py(85): _run_code;ipykernel_launcher.py(16): <module>;traitlets/config/application.py(846): launch_instance;ipykernel/kernelapp.py(612): start;tornado/platform/asyncio.py(132): start;asyncio/base_events.py(541): run_forever;asyncio/base_events.py(1786): _run_once;asyncio/events.py(88): _run;tornado/ioloop.py(758): _run_callback;tornado/stack_context.py(300): null_wrapper;tornado/gen.py(1233): inner;tornado/gen.py(1147): run;ipykernel/kernelbase.py(381): dispatch_queue;tornado/gen.py(346): wrapper;tornado/gen.py(1080): __init__;tornado/gen.py(1147): run;ipykernel/kernelbase.py(365): process_one;tornado/gen.py(326): wrapper;ipykernel/kernelbase.py(268): dispatch_shell;tornado/gen.py(326): wrapper;ipykernel/kernelbase.py(545): execute_request;tornado/gen.py(326): wrapper;ipykernel/ipkernel.py(306): do_execute;ipykernel/zmqshell.py(536): run_cell;IPython/core/interactiveshell.py(2855): run_cell;IPython/core/interactiveshell.py(2881): _run_cell;IPython/core/async_helpers.py(68): _pseudo_sync_runner;IPython/core/interactiveshell.py(3058): run_cell_async;IPython/core/interactiveshell.py(3249): run_ast_nodes;IPython/core/interactiveshell.py(3326): run_code;<ipython-input-11-0102ffd23884>(18): <module>;<ipython-input-9-69bb95e9ebde>(6): train;nn.Module: Net;<ipython-input-5-e9b7217e0cf3>(15): forward;nn.Module: Conv2d;torch/nn/modules/conv.py(456): forward;torch/nn/modules/conv.py(448): _conv_forward;<built-in method conv2d of type object at 0x7f931723c940>;"
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::_reshape_alias", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376279, "dur": 6,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 12,
+      "Input Dims": [[64], [], []], "Input type": ["float", "", ""], "python_caller_id": 18, "Call stack": "runpy.py(85): _run_code;ipykernel_launcher.py(16): <module>;traitlets/config/application.py(846): launch_instance;ipykernel/kernelapp.py(612): start;tornado/platform/asyncio.py(132): start;asyncio/base_events.py(541): run_forever;asyncio/base_events.py(1786): _run_once;asyncio/events.py(88): _run;tornado/ioloop.py(758): _run_callback;tornado/stack_context.py(300): null_wrapper;tornado/gen.py(1233): inner;tornado/gen.py(1147): run;ipykernel/kernelbase.py(381): dispatch_queue;tornado/gen.py(346): wrapper;tornado/gen.py(1080): __init__;tornado/gen.py(1147): run;ipykernel/kernelbase.py(365): process_one;tornado/gen.py(326): wrapper;ipykernel/kernelbase.py(268): dispatch_shell;tornado/gen.py(326): wrapper;ipykernel/kernelbase.py(545): execute_request;tornado/gen.py(326): wrapper;ipykernel/ipkernel.py(306): do_execute;ipykernel/zmqshell.py(536): run_cell;IPython/core/interactiveshell.py(2855): run_cell;IPython/core/interactiveshell.py(2881): _run_cell;IPython/core/async_helpers.py(68): _pseudo_sync_runner;IPython/core/interactiveshell.py(3058): run_cell_async;IPython/core/interactiveshell.py(3249): run_ast_nodes;IPython/core/interactiveshell.py(3326): run_code;<ipython-input-11-0102ffd23884>(18): <module>;<ipython-input-9-69bb95e9ebde>(6): train;nn.Module: Net;<ipython-input-5-e9b7217e0cf3>(15): forward;nn.Module: Conv2d;torch/nn/modules/conv.py(456): forward;torch/nn/modules/conv.py(448): _conv_forward;<built-in method conv2d of type object at 0x7f931723c940>;"
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::add_", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376299, "dur": 60,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 13,
+      "Input Dims": [[4, 64, 24, 24], [1, 64, 1, 1], []], "Input type": ["float", "float", "Scalar"], "python_caller_id": 18, "Call stack": "runpy.py(85): _run_code;ipykernel_launcher.py(16): <module>;traitlets/config/application.py(846): launch_instance;ipykernel/kernelapp.py(612): start;tornado/platform/asyncio.py(132): start;asyncio/base_events.py(541): run_forever;asyncio/base_events.py(1786): _run_once;asyncio/events.py(88): _run;tornado/ioloop.py(758): _run_callback;tornado/stack_context.py(300): null_wrapper;tornado/gen.py(1233): inner;tornado/gen.py(1147): run;ipykernel/kernelbase.py(381): dispatch_queue;tornado/gen.py(346): wrapper;tornado/gen.py(1080): __init__;tornado/gen.py(1147): run;ipykernel/kernelbase.py(365): process_one;tornado/gen.py(326): wrapper;ipykernel/kernelbase.py(268): dispatch_shell;tornado/gen.py(326): wrapper;ipykernel/kernelbase.py(545): execute_request;tornado/gen.py(326): wrapper;ipykernel/ipkernel.py(306): do_execute;ipykernel/zmqshell.py(536): run_cell;IPython/core/interactiveshell.py(2855): run_cell;IPython/core/interactiveshell.py(2881): _run_cell;IPython/core/async_helpers.py(68): _pseudo_sync_runner;IPython/core/interactiveshell.py(3058): run_cell_async;IPython/core/interactiveshell.py(3249): run_ast_nodes;IPython/core/interactiveshell.py(3326): run_code;<ipython-input-11-0102ffd23884>(18): <module>;<ipython-input-9-69bb95e9ebde>(6): train;nn.Module: Net;<ipython-input-5-e9b7217e0cf3>(15): forward;nn.Module: Conv2d;torch/nn/modules/conv.py(456): forward;torch/nn/modules/conv.py(448): _conv_forward;<built-in method conv2d of type object at 0x7f931723c940>;"
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/autograd/profiler.py(205): _start_trace", "pid": 1295, "tid": 1295,
+    "ts": 1667257188372932, "dur": 19,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 0, "Python parent id": 6, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "<built-in method kineto_available of PyCapsule object at 0x7f92c4385870>", "pid": 1295, "tid": 1295,
+    "ts": 1667257188372952, "dur": 9,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 1, "Python parent id": 6, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "<built-in function hasattr>", "pid": 1295, "tid": 1295,
+    "ts": 1667257188372972, "dur": 3,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 2, "Python parent id": 3, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/distributed/__init__.py(8): is_available", "pid": 1295, "tid": 1295,
+    "ts": 1667257188372970, "dur": 5,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 3, "Python parent id": 5, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/distributed/distributed_c10d.py(405): is_initialized", "pid": 1295, "tid": 1295,
+    "ts": 1667257188372979, "dur": 3,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 4, "Python parent id": 5, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/profiler/profiler.py(181): _get_distributed_info", "pid": 1295, "tid": 1295,
+    "ts": 1667257188372964, "dur": 19,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 5, "Python parent id": 6, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/profiler/profiler.py(102): start_trace", "pid": 1295, "tid": 1295,
+    "ts": 1667257188372931, "dur": 52,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 6, "Python parent id": 7, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/profiler/profiler.py(507): _transit_action", "pid": 1295, "tid": 1295,
+    "ts": 1667257188372930, "dur": 54,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 7, "Python parent id": 13, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "<built-in method zeros of type object at 0x7f931723c940>", "pid": 1295, "tid": 1295,
+    "ts": 1667257188373010, "dur": 278,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 8, "Python parent id": 9, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/autograd/profiler.py(436): __init__", "pid": 1295, "tid": 1295,
+    "ts": 1667257188373007, "dur": 284,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 9, "Python parent id": 13, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "<built-in method _record_function_enter of PyCapsule object at 0x7f92c17099c0>", "pid": 1295, "tid": 1295,
+    "ts": 1667257188373311, "dur": 49,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 10, "Python parent id": 11, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/_ops.py(138): __call__", "pid": 1295, "tid": 1295,
+    "ts": 1667257188373307, "dur": 53,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 11, "Python parent id": 12, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/autograd/profiler.py(445): __enter__", "pid": 1295, "tid": 1295,
+    "ts": 1667257188373295, "dur": 71,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 12, "Python parent id": 13, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/profiler/profiler.py(471): start", "pid": 1295, "tid": 1295,
+    "ts": 1667257188372925, "dur": 441,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 13, "Python parent id": 76, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/nn/modules/module.py(1194): __getattr__", "pid": 1295, "tid": 1295,
+    "ts": 1667257188373373, "dur": 7,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 14, "Python parent id": 76, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "<built-in method _get_tracing_state of PyCapsule object at 0x7f92c48edc60>", "pid": 1295, "tid": 1295,
+    "ts": 1667257188373393, "dur": 8,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 15, "Python parent id": 21, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/nn/modules/module.py(1194): __getattr__", "pid": 1295, "tid": 1295,
+    "ts": 1667257188373411, "dur": 2,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 16, "Python parent id": 20, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/nn/modules/module.py(1194): __getattr__", "pid": 1295, "tid": 1295,
+    "ts": 1667257188373414, "dur": 0,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 17, "Python parent id": 20, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "<built-in method conv2d of type object at 0x7f931723c940>", "pid": 1295, "tid": 1295,
+    "ts": 1667257188373423, "dur": 2958,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 18, "Python parent id": 19, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/nn/modules/conv.py(448): _conv_forward", "pid": 1295, "tid": 1295,
+    "ts": 1667257188373415, "dur": 2967,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 19, "Python parent id": 20, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/nn/modules/conv.py(456): forward", "pid": 1295, "tid": 1295,
+    "ts": 1667257188373407, "dur": 2976,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 20, "Python parent id": 21, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "nn.Module: Conv2d", "pid": 1295, "tid": 1295,
+    "ts": 1667257188373382, "dur": 3002,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 21, "Python parent id": 76, "Python thread": 0, "Python module id": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "<built-in method _record_function_exit of PyCapsule object at 0x7f92c1709990>", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376409, "dur": 18,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 22, "Python parent id": 23, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/_ops.py(138): __call__", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376407, "dur": 20,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 23, "Python parent id": 24, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/autograd/profiler.py(449): __exit__", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376397, "dur": 31,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 24, "Python parent id": 75, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/profiler/profiler.py(211): schedule_fn", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376431, "dur": 6,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 25, "Python parent id": 75, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "<built-in function hash>", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376447, "dur": 3,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 26, "Python parent id": 27, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "enum.py(615): __hash__", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376445, "dur": 5,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 27, "Python parent id": 30, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "<built-in function hash>", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376451, "dur": 0,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 28, "Python parent id": 29, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "enum.py(615): __hash__", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376451, "dur": 0,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 29, "Python parent id": 30, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "<built-in method get of dict object at 0x7f9334b84af0>", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376441, "dur": 12,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 30, "Python parent id": 74, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "<built-in function _cuda_isInBadFork>", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376470, "dur": 3,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 31, "Python parent id": 32, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/cuda/__init__.py(149): is_initialized", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376468, "dur": 5,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 32, "Python parent id": 33, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/cuda/__init__.py(191): _lazy_init", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376465, "dur": 9,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 33, "Python parent id": 70, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "<built-in function isinstance>", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376483, "dur": 1,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 34, "Python parent id": 56, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "<built-in function isinstance>", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376485, "dur": 0,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 35, "Python parent id": 56, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/_jit_internal.py(958): is_scripting", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376488, "dur": 1,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 36, "Python parent id": 56, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "<built-in function isinstance>", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376489, "dur": 1,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 37, "Python parent id": 56, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "<built-in function isinstance>", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376493, "dur": 0,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 38, "Python parent id": 55, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "<built-in function isinstance>", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376493, "dur": 0,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 39, "Python parent id": 55, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "<built-in function isinstance>", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376494, "dur": 0,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 40, "Python parent id": 55, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/_jit_internal.py(958): is_scripting", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376494, "dur": 0,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 41, "Python parent id": 55, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "<built-in function hasattr>", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376504, "dur": 1,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 42, "Python parent id": 44, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "<built-in function _cuda_getDeviceCount>", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376506, "dur": 2,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 43, "Python parent id": 44, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/cuda/__init__.py(77): is_available", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376502, "dur": 6,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 44, "Python parent id": 45, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/_utils.py(464): _get_available_device_type", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376500, "dur": 8,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 45, "Python parent id": 53, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "<built-in method get of dict object at 0x7f9334b84af0>", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376510, "dur": 0,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 46, "Python parent id": 53, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "<built-in function _cuda_isInBadFork>", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376518, "dur": 0,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 47, "Python parent id": 48, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/cuda/__init__.py(149): is_initialized", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376518, "dur": 0,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 48, "Python parent id": 49, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/cuda/__init__.py(191): _lazy_init", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376518, "dur": 1,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 49, "Python parent id": 51, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "<built-in function _cuda_getDevice>", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376520, "dur": 5,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 50, "Python parent id": 51, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/cuda/__init__.py(480): current_device", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376517, "dur": 8,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 51, "Python parent id": 52, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/_utils.py(481): <lambda>", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376511, "dur": 14,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 52, "Python parent id": 53, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/_utils.py(471): _get_device_attr", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376498, "dur": 28,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 53, "Python parent id": 54, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/_utils.py(479): _get_current_device_index", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376496, "dur": 30,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 54, "Python parent id": 55, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/_utils.py(503): _get_device_index", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376492, "dur": 34,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 55, "Python parent id": 56, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/cuda/_utils.py(7): _get_device_index", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376481, "dur": 45,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 56, "Python parent id": 57, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/cuda/__init__.py(268): __init__", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376477, "dur": 52,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 57, "Python parent id": 70, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "<built-in function _cuda_isInBadFork>", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376532, "dur": 0,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 58, "Python parent id": 59, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/cuda/__init__.py(149): is_initialized", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376532, "dur": 1,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 59, "Python parent id": 60, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/cuda/__init__.py(191): _lazy_init", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376532, "dur": 1,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 60, "Python parent id": 62, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "<built-in function _cuda_getDevice>", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376533, "dur": 1,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 61, "Python parent id": 62, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/cuda/__init__.py(480): current_device", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376532, "dur": 2,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 62, "Python parent id": 67, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/_jit_internal.py(958): is_scripting", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376535, "dur": 0,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 63, "Python parent id": 67, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "<built-in function _cuda_isInBadFork>", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376536, "dur": 0,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 64, "Python parent id": 65, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/cuda/__init__.py(149): is_initialized", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376536, "dur": 0,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 65, "Python parent id": 66, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/cuda/__init__.py(191): _lazy_init", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376535, "dur": 1,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 66, "Python parent id": 67, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/cuda/__init__.py(272): __enter__", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376530, "dur": 6,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 67, "Python parent id": 70, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "<built-in function _cuda_synchronize>", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376537, "dur": 24,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 68, "Python parent id": 70, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/cuda/__init__.py(281): __exit__", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376562, "dur": 1,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 69, "Python parent id": 70, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/cuda/__init__.py(486): synchronize", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376463, "dur": 101,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 70, "Python parent id": 72, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "<built-in method _disable_profiler of PyCapsule object at 0x7f92c43857b0>", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376564, "dur": 528,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 71, "Python parent id": 72, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/autograd/profiler.py(207): __exit__", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376457, "dur": 635,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 72, "Python parent id": 73, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/profiler/profiler.py(109): stop_trace", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376455, "dur": 637,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 73, "Python parent id": 74, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/profiler/profiler.py(503): _transit_action", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376439, "dur": 653,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 74, "Python parent id": 75, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "torch/profiler/profiler.py(481): step", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376392, "dur": 700,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 75, "Python parent id": 76, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "<ipython-input-5-e9b7217e0cf3>(15): forward", "pid": 1295, "tid": 1295,
+    "ts": 1667257188372924, "dur": 4168,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 76, "Python parent id": 77, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "nn.Module: Net", "pid": 1295, "tid": 1295,
+    "ts": 1667257188372916, "dur": 4176,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 77, "Python parent id": 78, "Python thread": 0, "Python module id": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "<ipython-input-9-69bb95e9ebde>(6): train", "pid": 1295, "tid": 1295,
+    "ts": 1667257188372915, "dur": 4177,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 78, "Python parent id": 79, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "<ipython-input-11-0102ffd23884>(18): <module>", "pid": 1295, "tid": 1295,
+    "ts": 1667257188372914, "dur": 4178,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 79, "Python parent id": 80, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "IPython/core/interactiveshell.py(3326): run_code", "pid": 1295, "tid": 1295,
+    "ts": 1667257188372913, "dur": 4179,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 80, "Python parent id": 81, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "IPython/core/interactiveshell.py(3249): run_ast_nodes", "pid": 1295, "tid": 1295,
+    "ts": 1667257188372913, "dur": 4179,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 81, "Python parent id": 82, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "IPython/core/interactiveshell.py(3058): run_cell_async", "pid": 1295, "tid": 1295,
+    "ts": 1667257188372912, "dur": 4180,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 82, "Python parent id": 83, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "IPython/core/async_helpers.py(68): _pseudo_sync_runner", "pid": 1295, "tid": 1295,
+    "ts": 1667257188372910, "dur": 4182,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 83, "Python parent id": 84, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "IPython/core/interactiveshell.py(2881): _run_cell", "pid": 1295, "tid": 1295,
+    "ts": 1667257188372910, "dur": 4182,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 84, "Python parent id": 85, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "IPython/core/interactiveshell.py(2855): run_cell", "pid": 1295, "tid": 1295,
+    "ts": 1667257188372909, "dur": 4183,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 85, "Python parent id": 86, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "ipykernel/zmqshell.py(536): run_cell", "pid": 1295, "tid": 1295,
+    "ts": 1667257188372907, "dur": 4185,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 86, "Python parent id": 87, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "ipykernel/ipkernel.py(306): do_execute", "pid": 1295, "tid": 1295,
+    "ts": 1667257188372906, "dur": 4186,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 87, "Python parent id": 88, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "tornado/gen.py(326): wrapper", "pid": 1295, "tid": 1295,
+    "ts": 1667257188372906, "dur": 4186,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 88, "Python parent id": 89, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "ipykernel/kernelbase.py(545): execute_request", "pid": 1295, "tid": 1295,
+    "ts": 1667257188372905, "dur": 4187,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 89, "Python parent id": 90, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "tornado/gen.py(326): wrapper", "pid": 1295, "tid": 1295,
+    "ts": 1667257188372905, "dur": 4187,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 90, "Python parent id": 91, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "ipykernel/kernelbase.py(268): dispatch_shell", "pid": 1295, "tid": 1295,
+    "ts": 1667257188372904, "dur": 4188,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 91, "Python parent id": 92, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "tornado/gen.py(326): wrapper", "pid": 1295, "tid": 1295,
+    "ts": 1667257188372904, "dur": 4188,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 92, "Python parent id": 93, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "ipykernel/kernelbase.py(365): process_one", "pid": 1295, "tid": 1295,
+    "ts": 1667257188372902, "dur": 4190,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 93, "Python parent id": 94, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "tornado/gen.py(1147): run", "pid": 1295, "tid": 1295,
+    "ts": 1667257188372902, "dur": 4190,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 94, "Python parent id": 95, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "tornado/gen.py(1080): __init__", "pid": 1295, "tid": 1295,
+    "ts": 1667257188372901, "dur": 4191,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 95, "Python parent id": 96, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "tornado/gen.py(346): wrapper", "pid": 1295, "tid": 1295,
+    "ts": 1667257188372900, "dur": 4192,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 96, "Python parent id": 97, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "ipykernel/kernelbase.py(381): dispatch_queue", "pid": 1295, "tid": 1295,
+    "ts": 1667257188372898, "dur": 4194,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 97, "Python parent id": 98, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "tornado/gen.py(1147): run", "pid": 1295, "tid": 1295,
+    "ts": 1667257188372898, "dur": 4194,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 98, "Python parent id": 99, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "tornado/gen.py(1233): inner", "pid": 1295, "tid": 1295,
+    "ts": 1667257188372897, "dur": 4195,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 99, "Python parent id": 100, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "tornado/stack_context.py(300): null_wrapper", "pid": 1295, "tid": 1295,
+    "ts": 1667257188372896, "dur": 4196,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 100, "Python parent id": 101, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "tornado/ioloop.py(758): _run_callback", "pid": 1295, "tid": 1295,
+    "ts": 1667257188372895, "dur": 4197,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 101, "Python parent id": 102, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "asyncio/events.py(88): _run", "pid": 1295, "tid": 1295,
+    "ts": 1667257188372893, "dur": 4199,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 102, "Python parent id": 103, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "asyncio/base_events.py(1786): _run_once", "pid": 1295, "tid": 1295,
+    "ts": 1667257188372892, "dur": 4200,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 103, "Python parent id": 104, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "asyncio/base_events.py(541): run_forever", "pid": 1295, "tid": 1295,
+    "ts": 1667257188372891, "dur": 4201,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 104, "Python parent id": 105, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "tornado/platform/asyncio.py(132): start", "pid": 1295, "tid": 1295,
+    "ts": 1667257188372890, "dur": 4202,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 105, "Python parent id": 106, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "ipykernel/kernelapp.py(612): start", "pid": 1295, "tid": 1295,
+    "ts": 1667257188372888, "dur": 4204,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 106, "Python parent id": 107, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "traitlets/config/application.py(846): launch_instance", "pid": 1295, "tid": 1295,
+    "ts": 1667257188372886, "dur": 4206,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 107, "Python parent id": 108, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "ipykernel_launcher.py(16): <module>", "pid": 1295, "tid": 1295,
+    "ts": 1667257188372884, "dur": 4208,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 108, "Python parent id": 109, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "runpy.py(85): _run_code", "pid": 1295, "tid": 1295,
+    "ts": 1667257188372883, "dur": 4209,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 109, "Python parent id": null, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", 
+    "name": "runpy.py(193): _run_module_as_main", "pid": 1295, "tid": 1295,
+    "ts": 1667257188372880, "dur": 4212,
+    "args": {
+      "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+      "External id": 0,
+      "Python id": 110, "Python parent id": null, "Python thread": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cuda_runtime", 
+    "name": "cudaStreamIsCapturing", "pid": 1295, "tid": 1295,
+    "ts": 1667257188375918, "dur": 2,
+    "args": {
+      "External id": 8,
+      
+      "cbid": 317, "correlation": 8
+    }
+  },
+  {
+    "ph": "f", "id": 8, "pid": 1295, "tid": 1295, "ts": 1667257188375918,
+    "cat": "async_cpu_to_gpu", "name": "async_gpu", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "cuda_runtime", 
+    "name": "cudaStreamGetPriority", "pid": 1295, "tid": 1295,
+    "ts": 1667257188375921, "dur": 1,
+    "args": {
+      "External id": 9,
+      
+      "cbid": 203, "correlation": 9
+    }
+  },
+  {
+    "ph": "f", "id": 9, "pid": 1295, "tid": 1295, "ts": 1667257188375921,
+    "cat": "async_cpu_to_gpu", "name": "async_gpu", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "cuda_runtime", 
+    "name": "cudaDeviceGetStreamPriorityRange", "pid": 1295, "tid": 1295,
+    "ts": 1667257188375923, "dur": 1,
+    "args": {
+      "External id": 10,
+      
+      "cbid": 205, "correlation": 10
+    }
+  },
+  {
+    "ph": "f", "id": 10, "pid": 1295, "tid": 1295, "ts": 1667257188375923,
+    "cat": "async_cpu_to_gpu", "name": "async_gpu", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Kernel", 
+    "name": "void cudnn::winograd::generateWinogradTilesKernel<0, float, float>(cudnn::winograd::GenerateWinogradTilesParams<float, float>)", "pid": 0, "tid": 7,
+    "ts": 1667257188376218, "dur": 6,
+    "args": {
+      "queued": 0, "device": 0, "context": 1,
+      "stream": 7, "correlation": 17,
+      "registers per thread": 56,
+      "shared memory": 8704,
+      "blocks per SM": 0.4,
+      "warps per SM": 1.6,
+      "grid": [2, 8, 1],
+      "block": [32, 4, 1],
+      "est. achieved occupancy %": 5
+    }
+  },
+  {
+    "ph": "f", "id": 17, "pid": 0, "tid": 7, "ts": 1667257188376218,
+    "cat": "async_cpu_to_gpu", "name": "async_gpu", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "cuda_runtime", 
+    "name": "cudaLaunchKernel", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376175, "dur": 45,
+    "args": {
+      "External id": 17,
+      
+      "cbid": 211, "correlation": 17
+    }
+  },
+  {
+    "ph": "s", "id": 17, "pid": 1295, "tid": 1295, "ts": 1667257188376175,
+    "cat": "async_cpu_to_gpu", "name": "async_gpu", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Kernel", 
+    "name": "volta_scudnn_winograd_128x128_ldg1_ldg4_relu_tile148t_nt_v1", "pid": 0, "tid": 7,
+    "ts": 1667257188376239, "dur": 50,
+    "args": {
+      "queued": 0, "device": 0, "context": 1,
+      "stream": 7, "correlation": 19,
+      "registers per thread": 126,
+      "shared memory": 49152,
+      "blocks per SM": 1.2,
+      "warps per SM": 9.6,
+      "grid": [8, 3, 2],
+      "block": [256, 1, 1],
+      "est. achieved occupancy %": 25
+    }
+  },
+  {
+    "ph": "f", "id": 19, "pid": 0, "tid": 7, "ts": 1667257188376239,
+    "cat": "async_cpu_to_gpu", "name": "async_gpu", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "cuda_runtime", 
+    "name": "cudaLaunchKernel", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376226, "dur": 12,
+    "args": {
+      "External id": 19,
+      
+      "cbid": 211, "correlation": 19
+    }
+  },
+  {
+    "ph": "s", "id": 19, "pid": 1295, "tid": 1295, "ts": 1667257188376226,
+    "cat": "async_cpu_to_gpu", "name": "async_gpu", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "Kernel", 
+    "name": "void at::native::elementwise_kernel<128, 2, at::native::gpu_kernel_impl<at::native::CUDAFunctor_add<float> >(at::TensorIteratorBase&, at::native::CUDAFunctor_add<float> const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl<at::native::CUDAFunctor_add<float> >(at::TensorIteratorBase&, at::native::CUDAFunctor_add<float> const&)::{lambda(int)#1})", "pid": 0, "tid": 7,
+    "ts": 1667257188376354, "dur": 8,
+    "args": {
+      "queued": 0, "device": 0, "context": 1,
+      "stream": 7, "correlation": 23,
+      "registers per thread": 16,
+      "shared memory": 0,
+      "blocks per SM": 14.4,
+      "warps per SM": 57.6,
+      "grid": [576, 1, 1],
+      "block": [128, 1, 1],
+      "est. achieved occupancy %": 100
+    }
+  },
+  {
+    "ph": "f", "id": 23, "pid": 0, "tid": 7, "ts": 1667257188376354,
+    "cat": "async_cpu_to_gpu", "name": "async_gpu", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "cuda_runtime", 
+    "name": "cudaLaunchKernel", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376338, "dur": 16,
+    "args": {
+      "External id": 23,
+      
+      "cbid": 211, "correlation": 23
+    }
+  },
+  {
+    "ph": "s", "id": 23, "pid": 1295, "tid": 1295, "ts": 1667257188376338,
+    "cat": "async_cpu_to_gpu", "name": "async_gpu", "bp": "e"
+  },
+  {
+    "ph": "X", "cat": "cuda_runtime", 
+    "name": "cudaDeviceSynchronize", "pid": 1295, "tid": 1295,
+    "ts": 1667257188376539, "dur": 21,
+    "args": {
+      "External id": 28,
+      
+      "cbid": 165, "correlation": 28
+    }
+  },
+  {
+    "ph": "f", "id": 28, "pid": 1295, "tid": 1295, "ts": 1667257188376539,
+    "cat": "async_cpu_to_gpu", "name": "async_gpu", "bp": "e"
+  },
+  {
+    "name": "process_name", "ph": "M", "ts": 1667257188372944, "pid": 1295, "tid": 0,
+    "args": {
+      "name": "python3"
+    }
+  },
+  {
+    "name": "process_labels", "ph": "M", "ts": 1667257188372944, "pid": 1295, "tid": 0,
+    "args": {
+      "labels": "CPU"
+    }
+  },
+  {
+    "name": "process_sort_index", "ph": "M", "ts": 1667257188372944, "pid": 1295, "tid": 0,
+    "args": {
+      "sort_index": 1295
+    }
+  },
+  {
+    "name": "process_name", "ph": "M", "ts": 1667257188372944, "pid": 0, "tid": 0,
+    "args": {
+      "name": "python3"
+    }
+  },
+  {
+    "name": "process_labels", "ph": "M", "ts": 1667257188372944, "pid": 0, "tid": 0,
+    "args": {
+      "labels": "GPU 0"
+    }
+  },
+  {
+    "name": "process_sort_index", "ph": "M", "ts": 1667257188372944, "pid": 0, "tid": 0,
+    "args": {
+      "sort_index": 16777216
+    }
+  },
+  {
+    "name": "process_name", "ph": "M", "ts": 1667257188372944, "pid": 1, "tid": 0,
+    "args": {
+      "name": "python3"
+    }
+  },
+  {
+    "name": "process_labels", "ph": "M", "ts": 1667257188372944, "pid": 1, "tid": 0,
+    "args": {
+      "labels": "GPU 1"
+    }
+  },
+  {
+    "name": "process_sort_index", "ph": "M", "ts": 1667257188372944, "pid": 1, "tid": 0,
+    "args": {
+      "sort_index": 16777217
+    }
+  },
+  {
+    "name": "process_name", "ph": "M", "ts": 1667257188372944, "pid": 2, "tid": 0,
+    "args": {
+      "name": "python3"
+    }
+  },
+  {
+    "name": "process_labels", "ph": "M", "ts": 1667257188372944, "pid": 2, "tid": 0,
+    "args": {
+      "labels": "GPU 2"
+    }
+  },
+  {
+    "name": "process_sort_index", "ph": "M", "ts": 1667257188372944, "pid": 2, "tid": 0,
+    "args": {
+      "sort_index": 16777218
+    }
+  },
+  {
+    "name": "process_name", "ph": "M", "ts": 1667257188372944, "pid": 3, "tid": 0,
+    "args": {
+      "name": "python3"
+    }
+  },
+  {
+    "name": "process_labels", "ph": "M", "ts": 1667257188372944, "pid": 3, "tid": 0,
+    "args": {
+      "labels": "GPU 3"
+    }
+  },
+  {
+    "name": "process_sort_index", "ph": "M", "ts": 1667257188372944, "pid": 3, "tid": 0,
+    "args": {
+      "sort_index": 16777219
+    }
+  },
+  {
+    "name": "process_name", "ph": "M", "ts": 1667257188372944, "pid": 4, "tid": 0,
+    "args": {
+      "name": "python3"
+    }
+  },
+  {
+    "name": "process_labels", "ph": "M", "ts": 1667257188372944, "pid": 4, "tid": 0,
+    "args": {
+      "labels": "GPU 4"
+    }
+  },
+  {
+    "name": "process_sort_index", "ph": "M", "ts": 1667257188372944, "pid": 4, "tid": 0,
+    "args": {
+      "sort_index": 16777220
+    }
+  },
+  {
+    "name": "process_name", "ph": "M", "ts": 1667257188372944, "pid": 5, "tid": 0,
+    "args": {
+      "name": "python3"
+    }
+  },
+  {
+    "name": "process_labels", "ph": "M", "ts": 1667257188372944, "pid": 5, "tid": 0,
+    "args": {
+      "labels": "GPU 5"
+    }
+  },
+  {
+    "name": "process_sort_index", "ph": "M", "ts": 1667257188372944, "pid": 5, "tid": 0,
+    "args": {
+      "sort_index": 16777221
+    }
+  },
+  {
+    "name": "process_name", "ph": "M", "ts": 1667257188372944, "pid": 6, "tid": 0,
+    "args": {
+      "name": "python3"
+    }
+  },
+  {
+    "name": "process_labels", "ph": "M", "ts": 1667257188372944, "pid": 6, "tid": 0,
+    "args": {
+      "labels": "GPU 6"
+    }
+  },
+  {
+    "name": "process_sort_index", "ph": "M", "ts": 1667257188372944, "pid": 6, "tid": 0,
+    "args": {
+      "sort_index": 16777222
+    }
+  },
+  {
+    "name": "process_name", "ph": "M", "ts": 1667257188372944, "pid": 7, "tid": 0,
+    "args": {
+      "name": "python3"
+    }
+  },
+  {
+    "name": "process_labels", "ph": "M", "ts": 1667257188372944, "pid": 7, "tid": 0,
+    "args": {
+      "labels": "GPU 7"
+    }
+  },
+  {
+    "name": "process_sort_index", "ph": "M", "ts": 1667257188372944, "pid": 7, "tid": 0,
+    "args": {
+      "sort_index": 16777223
+    }
+  },
+  {
+    "name": "thread_name", "ph": "M", "ts": 1667257188372944, "pid": 0, "tid": 7,
+    "args": {
+      "name": "stream 7 "
+    }
+  },
+  {
+    "name": "thread_sort_index", "ph": "M", "ts": 1667257188372944, "pid": 0, "tid": 7,
+    "args": {
+      "sort_index": 7
+    }
+  },
+  {
+    "name": "thread_name", "ph": "M", "ts": 1667257188372944, "pid": 1295, "tid": 1295,
+    "args": {
+      "name": "thread 1295 (python3)"
+    }
+  },
+  {
+    "name": "thread_sort_index", "ph": "M", "ts": 1667257188372944, "pid": 1295, "tid": 1295,
+    "args": {
+      "sort_index": 1295
+    }
+  },
+  {
+    "name": "thread_name", "ph": "M", "ts": 1667257188372944, "pid": 1295, "tid": 1295,
+    "args": {
+      "name": "thread 1295 (python3)"
+    }
+  },
+  {
+    "name": "thread_sort_index", "ph": "M", "ts": 1667257188372944, "pid": 1295, "tid": 1295,
+    "args": {
+      "sort_index": 1295
+    }
+  },
+  {
+    "ph": "X", "cat": "Trace", "ts": 1667257188372154, "dur": 4418,
+    "pid": "Spans", "tid": "PyTorch Profiler",
+    "name": "PyTorch Profiler (0)",
+    "args": {
+      "Op count": 0
+    }
+  },
+  {
+    "name": "process_sort_index", "ph": "M", "ts": 1667257188372154,
+    "pid": "Spans", "tid": 0,
+    "args": {
+      "sort_index": 536870912
+    }
+  },
+  {
+    "name": "Iteration Start: PyTorch Profiler", "ph": "i", "s": "g",
+    "pid": "Traces", "tid": "Trace PyTorch Profiler", "ts": 1667257188372154
+  },
+  {
+    "name": "Record Window End", "ph": "i", "s": "g",
+    "pid": "", "tid": "", "ts": 1667257188377470
+  }
+  ],
+  "traceName": "./log/mnist/147f5d875b4e_1295.1667257188381.pt.trace.json"
+}
